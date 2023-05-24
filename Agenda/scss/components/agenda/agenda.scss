@@ -1,0 +1,51 @@
+@use "../../abstracts/mixins";
+
+.agenda{
+    width: 50rem;
+    aspect-ratio: 1/1;
+    background: #eee;
+    border-radius: 2rem;
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+
+
+    &__header{
+        background: #e74646;
+        height: 20%;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        @include mixins.flexCenter;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    &__button{
+        background: none;
+        border: none;
+        font-size: 200%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__month{
+        height: 80%;
+        padding: 2rem;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 1rem;
+    }
+
+    &__day{
+        background:darken(#eee, 15%);
+        @include mixins.flexCenter;
+        width: 80%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
