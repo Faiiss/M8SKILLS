@@ -1,0 +1,1 @@
+const app = new App(); // Een nieuwe instantie van de App class wordt aangemaakt.

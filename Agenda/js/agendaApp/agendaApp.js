@@ -6,7 +6,7 @@ class AgendaApp {
 
     constructor() {
         this.api = new API(); // maak een nieuwe API-instantie
-        this.switcher = new Switcher(this); // maak een nieuwe Switcher-instantie en geef de huidige AgendaApp-instantie mee
+        this.switcher = new Switcher(this); // maak een084352 nieuwe Switcher-instantie en geef de huidige AgendaApp-instantie mee
         this.cleaner = new Cleaner(); // maak een nieuwe Cleaner-instantie
 
         // Haal gegevens op via de API en laad de agenda voor de huidige maand
@@ -191,5 +191,16 @@ class Day {
         this.month.renderDays(".agenda__month", this.HTMLElement); // render de dag in de maand
     }
 }
+
+class Renderer {
+    render(placeToRender, whatToRender) {
+        // Zoek het element op waarin we willen renderen
+        const containerElement = document.querySelector(placeToRender);
+        
+        // Voeg het element dat we willen renderen toe aan het containerelement
+        containerElement.appendChild(whatToRender);
+    }
+}
+const FaissAgenda = new AgendaApp(); // maak een nieuwe AgendaApp-instantie
 
 

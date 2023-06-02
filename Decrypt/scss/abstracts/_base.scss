@@ -1,0 +1,19 @@
+body {
+    font-size: 2rem;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #ff72c9, 50%, #4dffd3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 2rem;
+
+    justify-content: center;
+}
