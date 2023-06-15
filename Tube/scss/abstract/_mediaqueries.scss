@@ -1,0 +1,179 @@
+@import"./colors";
+/* Mobile-first styles */
+
+/* Styles for screens smaller than 600px */
+@media (min-width: 390px) and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .video-section {
+        display: flex;
+        margin-top: 390vh;
+        flex-direction: column;
+        padding: 0rem;
+    }
+    .video-container {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .video-thumb {
+        aspect-ratio: 1/1;
+        width: 16rem;
+        border-radius: 20px;
+        border: 1rem solid #c544ec;
+        transition: 0.3s ease-in-out;
+        object-fit: cover;
+    }
+    .video-box {
+        height: 18rem;
+        border-radius: 2rem;
+        aspect-ratio: 2/1;
+        border: 0.5rem solid #c544ec;
+    }
+    .comments-section {
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+    .comments-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 4rem;
+        width: 90vw;
+    }
+    .comments-section h2 {
+        font-size: 4.5rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        color: #ffffff;
+    }
+    .comment-author-name {
+        font-size: 3rem;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .comment-text {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        color: #ffffff;
+    }
+    .comment-form {
+        padding: 2rem;
+        background: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 35rem;
+        aspect-ratio: 2/1;
+        flex-direction: column;
+        border-radius: 3rem;
+        gap: 3rem;
+    }
+  }
+  
+  /* Styles for screens between 600px and 959px */
+  @media (min-width: 600px) and (max-width: 959px) {
+    body{
+        overflow-x: hidden;
+    }
+    .video-container {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .video-section {
+        display: flex;
+        margin-top: 250vh;
+        flex-direction: column;
+        padding: 10rem;
+    }
+    .video-box {
+        height: 30rem;
+        border-radius: 2rem;
+        aspect-ratio: 2/1;
+        border: 1rem solid #c544ec;
+    }
+    .comments-section {
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+  }
+  
+  /* Styles for screens between 960px and 1279px */
+  @media (min-width: 960px) and (max-width: 1279px) {
+    body{
+        overflow-x: hidden;
+    }
+    .video-container {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .video-section {
+        display: flex;
+        margin-top: 200vh;
+        flex-direction: column;
+        padding: 10rem;
+    }
+    .video-box {
+        height: 30rem;
+        border-radius: 2rem;
+        aspect-ratio: 2/1;
+        border: 1rem solid #c544ec;
+    }
+    .comments-section {
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+  }
+
+  @media (min-width: 1279px) and (max-width: 1366px){
+    .video-section {
+        display: flex;
+        margin-top: 235vh;
+        flex-direction: column;
+        padding: 5rem;
+    }
+    .video-thumb {
+        aspect-ratio: 1/1;
+        width: 15rem;
+        border-radius: 20px;
+        border: 1rem solid #c544ec;
+        transition: 0.3s ease-in-out;
+        object-fit: cover;
+    }
+    .video-box {
+        height: 35rem;
+        border-radius: 2rem;
+        aspect-ratio: 2/1;
+        border: 1rem solid #c544ec;
+    }
+  }

@@ -1,0 +1,78 @@
+{
+    "videos": [
+      {
+        "title": "Video 1",
+        "src": "video/video-1.mp4",
+        "time": "2:30",
+        "likes": 1000,
+        "thumbnail": "img/thumbs-yubtub-1.webp"
+      },
+      {
+        "title": "Video 2",
+        "src": "video/video-2.mp4",
+        "time": "3:45",
+        "likes": 1500,
+        "thumbnail": "img/thumbs-yubtub-2.webp"
+      },
+      {
+        "title": "Video 3",
+        "src": "video/video-3.mp4",
+        "time": "1:55",
+        "likes": 800,
+        "thumbnail": "img/thumbs-yubtub-3.webp"
+      },
+      {
+        "title": "Video 4",
+        "src": "video/video-4.mp4",
+        "time": "4:10",
+        "likes": 1200,
+        "thumbnail": "img/thumbs-yubtub-4.webp"
+      },
+      {
+        "title": "Video 5",
+        "src": "video/video-5.mp4",
+        "time": "4:10",
+        "likes": 1200,
+        "thumbnail": "img/thumbs-yubtub-5.webp"
+      }
+    ],
+    "comments": [
+      {
+        "author": "John Doe",
+        "icon": "bi-android2 comment-pf",
+        "timePosted": "2 hours ago",
+        "comment": "This video is amazing!"
+      },
+      {
+        "author": "Jane Smith",
+        "icon": "bi-android2 comment-pf ",
+        "timePosted": "1 day ago",
+        "comment": "Great content! Keep it up!"
+      },
+      {
+        "author": "Alice Johnson",
+        "icon": "bi-android2 comment-pf",
+        "timePosted": "5 hours ago",
+        "comment": "I learned a lot from this video!"
+      },
+      {
+        "author": "Bob Thompson",
+        "icon": "bi-android2 comment-pf",
+        "timePosted": "3 days ago",
+        "comment": "Very informative. Thanks!"
+      },
+      {
+        "author": "Sarah Wilson",
+        "icon": "bi-android2 comment-pf",
+        "timePosted": "1 hour ago",
+        "comment": "I can't stop watching this!"
+      },
+      {
+        "author": "David Lee",
+        "icon": "bi-android2 comment-pf",
+        "timePosted": "2 days ago",
+        "comment": "Awesome video. Thanks for sharing!"
+      }
+    ]
+  }
+  

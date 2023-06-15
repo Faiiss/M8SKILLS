@@ -1,0 +1,21 @@
+@import "colors";
+
+body {
+    font-size: 2rem;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, $background, 50%, $black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 2rem;
+
+    justify-content: center;
+}
