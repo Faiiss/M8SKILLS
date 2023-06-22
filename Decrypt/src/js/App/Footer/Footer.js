@@ -15,7 +15,6 @@ class Footer {
         this.buttonHtmlElement.classList = "view__button"; // Het element krijgt de class "view__button"
         this.buttonHtmlElement.innerText = this.buttonText; // De tekst op de knop is de buttonText
         this.view.main.app.renderer.render(this.buttonHtmlElement, this.HTMLelement); // Het buttonHtmlElement wordt weergegeven binnen het HTMLelement van de footer
-
         this.buttonHtmlElement.onclick = this.buttonClicked; // Als er op de buttonHtmlElement wordt geklikt, wordt de functie buttonClicked uitgevoerd
     }
 
